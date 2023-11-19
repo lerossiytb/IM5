@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <form action="contact_form.php" method="post"></form>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+
+ <!-- Hamburger Menü Button -->
+ <div class="menu-button">
+    <div class="bar"></div>
+</div>
+
+<div class="menu-overlay" id="menuOverlay">
+    <div class="menu-content">
+        <span id="closeMenu" class="close-menu">X</span>
+        <h1>Nicolas Rossi</h1>
+        <ul>
+            <li><a href="einfuehrung.html">Einführung</a></li>
+            <li><a href="forschungsmethoden.html">Forschungsmethoden</a></li>
+            <li><a href="fazit.html">Fazit</a></li>
+            <li><a href="umfrage.html">Selbsttest - wie geht es dir?</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="frontpage-content">
+    <h1><a href="index.html" class="home-link">Nicolas Rossi</a></h1>
+</div>
+
+
+
+    <div class="container">
+        <h2>Melde dich gerne bei mir</h2>
+
+        <form action="PHP/submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Senden">
+        </form>
+    </div>
+
+    <script src="../JS/script.js"></script>
+
+
+</body>
+</html>

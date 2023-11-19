@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Stimmungsumfrage</title>
+<link rel="stylesheet" href="../CSS/umfrage.css">
+
+
+
+</head>
+<body>
+
+      <!-- Hamburger Menü Button -->
+<div class="menu-button"> <!-- Diese Klasse muss mit Ihrem CSS übereinstimmen -->
+    <div class="bar"></div> <!-- Die Kind-Elemente für die Balken -->
+</div>
+
+    <!-- Das Navigationsmenü, das sich beim Klicken auf den Hamburger-Button öffnet -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-content">
+            <span id="closeMenu" class="close-menu">X</span>
+            <h1>Nicolas Rossi</h1>
+            <ul>
+                <li><a href="einfuehrung.html">Einführung</a></li>
+                <li><a href="forschungsmethoden.html">Forschungsmethoden</a></li>
+                <li><a href="fazit.html">Fazit</a></li>
+                <li><a href="umfrage.html">Selbsttest - wie geht es dir?</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="frontpage-content">
+        <h1><a href="index.html" class="home-link">Nicolas Rossi</a></h1>
+    </div>
+    
+
+<div class="container">
+    <h1>Stimmungsumfrage</h1>
+    
+    <!-- Frage 1 -->
+    <div class="slider-container question" id="question1">
+        <label for="nervoes">Denk an die letzten vier Wochen. Wie oft hast du dich nervös gefühlt?</label>
+        <input type="range" min="1" max="5" value="3" class="slider" id="nervoes">
+        <div class="slider-labels">
+            <span>Immer</span>
+            <span>Meistens</span>
+            <span>Manchmal</span>
+            <span>Selten</span>
+            <span>Nie</span>
+        </div>
+        <button type="button" class="next-button">Weiter</button>
+    </div>
+
+    <!-- Frage 2 -->
+    <div class="slider-container question" id="question2" style="display: none;">
+        <label for="niedergeschlagen">Und wie oft niedergeschlagen oder verstimmt?</label>
+        <input type="range" min="1" max="5" value="3" class="slider" id="niedergeschlagen">
+        <div class="slider-labels">
+            <span>Immer</span>
+            <span>Meistens</span>
+            <span>Manchmal</span>
+            <span>Selten</span>
+            <span>Nie</span>
+        </div>
+        <button type="button" class="prev-button">Zurück</button>
+        <button type="button" class="next-button">Weiter</button>
+    </div>
+
+    <!-- Frage 3 -->
+    <div class="slider-container question" id="question3" style="display: none;">
+        <label for="entmutigt">Wie oft fühltest du dich in dem Zeitraum entmutigt und deprimiert?</label>
+        <input type="range" min="1" max="5" value="3" class="slider" id="entmutigt">
+        <div class="slider-labels">
+            <span>Immer</span>
+            <span>Meistens</span>
+            <span>Manchmal</span>
+            <span>Selten</span>
+            <span>Nie</span>
+        </div>
+        <button type="button" class="prev-button">Zurück</button>
+        <button type="button" class="next-button">Weiter</button>
+    </div>
+
+    <!-- Frage 4 -->
+    <div class="slider-container question" id="question4" style="display: none;">
+        <label for="ausgeglichen">Ebenfalls im letzten Monat: Wie oft warst du ruhig und ausgeglichen?</label>
+        <input type="range" min="1" max="5" value="3" class="slider" id="ausgeglichen">
+        <div class="slider-labels">
+            <span>Immer</span>
+            <span>Meistens</span>
+            <span>Manchmal</span>
+            <span>Selten</span>
+            <span>Nie</span>
+        </div>
+        <button type="button" class="prev-button">Zurück</button>
+        <button type="button" class="next-button">Weiter</button>
+    </div>
+
+    <!-- Frage 5 -->
+    <div class="slider-container question" id="question5" style="display: none;">
+        <label for="gluecklich">Und wie oft glücklich?</label>
+        <input type="range" min="1" max="5" value="3" class="slider" id="gluecklich">
+        <div class="slider-labels">
+            <span>Immer</span>
+            <span>Meistens</span>
+            <span>Manchmal</span>
+            <span>Selten</span>
+            <span>Nie</span>
+        </div>
+        <button type="button" class="prev-button">Zurück</button>
+        <button type="button" class="next-button" id="show-result">Ergebnis anzeigen</button>
+    </div>
+
+    <div id="ergebnis" class="ergebnis" style="display: none;"></div>
+
+</div>
+
+<script src="../JS/umfrage.js"></script>
+
+<br>
+<br>
+<br>
+<br>
+<h2 Warum dieser Test? />
+
+<div class="text-section">
+    <h3>Über Mentale Gesundheit zu sprechen, kann leben retten! </h3>
+
+    <p>Mentale Erkrankungen betreffen uns alle in unterschiedlichem Maße: Jede zweite Person leidet einmal in ihrem Leben an einer mentalen Erkrankung. Dies bringt viel Leid für die Betroffenen und ihre Angehörigen mit sich, führt zu Arbeitsausfällen und Gesundheitskosten. Diese Seite soll ermutigen, über mentale Probleme zu sprechen.</p>
+
+    <p>Über Probleme zu sprechen ist wichtig. Über Probleme zu sprechen, bringt Erleichterung und ermöglicht Hilfe. Dies ist wichtig, denn je länger mentaler Stress anhält, desto größer ist die Gefahr, dass er zu einer schweren Erkrankung wird. Und auch: Je früher eine Erkrankung behandelt wird, desto effektiver ist der Heilungsprozess.</p>
+
+    <p>Die Kampagne betont, dass die mentale Gesundheit gefördert werden kann. Der Geist kann genauso wie der Körper gestärkt und erhalten werden. Neben konkreten Gesprächstipps bietet die Kampagne weitere Inputs zur Förderung der mentalen Gesundheit.</p>
+
+    <p>Die Kampagne sensibilisiert für Unterstützungsangebote. Hilfe ist möglich. Mentale Erkrankungen sind gut behandelbar. Unterstützungsangebote werden im Rahmen der Kampagne bekannt gemacht.</p>
+
+    <p>Um herauszufinden, wer die Kampagne unterstützt, lesen Sie weiter.</p>
+</div>
+
+
+</body>
+
+<footer id="myFooter">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Kontakt</h3>
+            <address>
+                Nicolas Rossi<br>
+                Dohlenweg 2b<br>
+                5210 Windisch<br>
+                <a href="tel:+41764217303" style="text-decoration: none;">+41 76 421 73 03</a><br>
+                <a href="mailto:lerossi@gmx.ch?subject=Bezüglich Ihres Projekts">lerossi@gmx.ch</a><br>
+            
+            </address>
+
+        </div>
+    </div>
+</footer>
+</html>
