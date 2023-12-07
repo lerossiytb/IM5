@@ -49,30 +49,6 @@ body {
     color: #666;
 }
 
-/* Footer */
-.footer {
-    background-color: #333;
-    padding: 20px 0;
-    color: #fff;
-}
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer-content p {
-    margin: 0;
-}
-.footer-logo {
-    display: flex;
-    align-items: center;
-}
-.footer-logo img {
-    width: 40px;
-    margin-right: 10px;
-}
 
 /* Video */
 .video-overlay {
@@ -411,9 +387,6 @@ a {
     text-decoration: underline;
 }
 
-/* Grundstil und restliches CSS wie zuvor definiert */
-/* ... */
-
 /* Hauptbild Platzhalter Stil */
 .main-image-placeholder {
     width: calc(100% - 40px); /* Subtrahiert Weißraum von der Gesamtbreite */
@@ -449,13 +422,18 @@ body {
     padding: 0;
 }
 .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
+    width: 600px; /* Setzen Sie die gewünschte Breite des Formulars */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
 h2 {
     text-align: center;
     color: #333;

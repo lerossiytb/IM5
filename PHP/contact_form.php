@@ -25,4 +25,4 @@ if(mail($to, $subject, $body, $headers)) {
 } else {
     echo "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten.";
 }
-?>
+?php>

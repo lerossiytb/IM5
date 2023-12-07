@@ -7,11 +7,53 @@ body {
   background-color: #ffffff;
 }
 
+
+/* Ändere die Farbe der Links auf Weiß und füge eine Unterstreichung hinzu */
+a {
+  color: #6f4444;
+  text-decoration: underline;
+}
+
+
+.text-section {
+  max-width: 800px; /* Maximale Breite des Textbereichs */
+  margin: 20px auto; /* Zentriert den Textbereich */
+  padding: 0 20px; /* Fügt Weißraum innen hinzu */
+}
+
+.text-section h1 {
+  font-size: 2rem; /* Schriftgröße der Überschrift */
+  color: #333; /* Farbe der Überschrift */
+  margin-bottom: 1rem; /* Abstand unter der Überschrift */
+}
+
+.text-section p {
+  font-size: 1rem; /* Schriftgröße des Paragraphen */
+  color: #666; /* Farbe des Paragraphen */
+  line-height: 1.6; /* Zeilenhöhe */
+  margin-bottom: 1rem; /* Abstand unter dem Paragraphen */
+}
+
+
 .home-link {
   color: white;
   text-decoration: none; /* Dies entfernt die Unterstreichung */
 }
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 20px;
+      margin-top: 20px;
+  }
 
+  .menu-button {
+      top: 10px;
+      left: 10px;
+  }
+
+  .title-container {
+      position: static; /* Fixiert den Titel nicht auf kleinen Bildschirmen */
+  }
+}
 
 
 .container {
@@ -52,8 +94,6 @@ body {
   /* ... bisherige Stile ... */
   top: 50px; /* Positioniert das Menü unterhalb des Titel-Containers */
 }
-
-/* Restliches CSS bleibt unverändert */
 
 .menu-button .bar {
   background-color: rgb(0, 0, 0);
@@ -329,45 +369,84 @@ label {
   background-color: #f4f4f4;
 }
 
-.text-section {
-  text-align: center; /* Zentriert den Text horizontal */
-  margin: 0 auto; /* Zentriert die gesamte text-section horizontal */
-  max-width: 800px; /* Fügen Sie die gewünschte maximale Breite hinzu */
+
+.frontpage-content {
+  position: absolute;
+  top: 2%;  /* Abstand von oben, kann nach Bedarf angepasst werden */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
-.text-section h1 {
-  font-size: 2rem; /* Schriftgröße der Überschrift */
-  color: #333; /* Farbe der Überschrift */
-  margin-bottom: 1rem; /* Abstand unter der Überschrift */
+.frontpage-content h1 {
+  font-size: 2em;  /* oder eine andere gewünschte Größe */
+  color: #ffffff;   /* Weiß für Kontrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für Lesbarkeit */
+  margin: 0;  
 }
 
-.text-section p {
-  font-size: 1rem; /* Schriftgröße des Paragraphen */
-  color: #666; /* Farbe des Paragraphen */
-  line-height: 1.6; /* Zeilenhöhe */
-  margin-bottom: 1rem; /* Abstand unter dem Paragraphen */
-}
 
-.footer {
+/* Footer */
+#myFooter {
   background-color: #333;
-  padding: 20px 0;
   color: #fff;
-}
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
-.footer-content p {
-  margin: 0;
+
+#myFooter a {
+  color: #fff; /* Ensuring that links are also white */
+  text-decoration: none; /* No underline on links */
 }
-.footer-logo {
-  display: flex;
-  align-items: center;
+
+.featured-articles {
+  background-color: #eaf4fe;
+  padding: 40px 0;
+  text-align: center;
 }
-.footer-logo img {
-  width: 40px;
-  margin-right: 10px;
+
+#myAddress {
+  color: #fff; /* Textfarbe auf Weiß setzen */
+  padding: 20px 0; /* 20 Pixel Abstand oben und unten hinzufügen */
+  font-family: 'Montserrat', sans-serif; /* Schriftart auf Montserrat setzen oder Ihre gewünschte Schriftart verwenden */
+  display: flex; /* Flexbox verwenden */
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center; /* Vertikal zentrieren */
+  text-align: center; /* Text zentrieren */
+}
+
+#myAddress a {
+  text-decoration: none; /* Unterstreichung der Links entfernen */
+  color: #fff; /* Farbe der Links auf Weiß setzen */
+}
+
+#myAddress a:hover {
+  text-decoration: underline; /* Unterstreichung der Links bei Hover hinzufügen */
+  color: #007bff; /* Farbe der Links beim Hover ändern, hier auf Blau */
+}
+
+#myFooter .footer-section address {
+  font-size: 16px; 
+  font-weight: normal;
+}
+
+#myFooter .footer-section h3 {
+  font-size: 18px; }
+
+  h2 {
+    font-size: 1.5em; /* existing style */
+    font-weight: bold; /* existing style */
+    margin-bottom: 0; /* this will remove the bottom margin */
+  }
+  
+  .my-text {
+    margin-top: 10%; /* Hier kannst du den gewünschten Abstand einstellen */
+}
+
+.helpful-resources {
+  font-size: 16px;
 }

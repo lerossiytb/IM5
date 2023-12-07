@@ -1,0 +1,24 @@
+/* Footer */
+.footer {
+    background-color: #eaf4fe;
+    padding: 40px 0;
+    color: #fff;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content p {
+    margin: 0;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
