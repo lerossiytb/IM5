@@ -1,6 +1,58 @@
-# Bachelorarbeit Website
+# Zusammenfassung der HTML-Dateien
 
-Diese Website zeigt das Thema meiner Bachelorarbeit: Mental Health im Spitzensport und ist in vier Hauptbereiche aufgeteilt: eine Startseite, zwei Artikelbeiträge, eine Umfrage und ein Kontaktformular.
+## `fazit.html`
+- **Struktur**: Grundlegende HTML-Struktur mit Kopf- und Körperbereich.
+- **Styling**: Verlinkt auf `style.css` für das Styling und bezieht Google Fonts (Montserrat).
+- **Inhalt**: Enthält ein Hamburger-Menü für die Navigation, einen Haupttextabschnitt, der ein Fazit zum Thema Mental Health im Spitzensport gibt, und einen Footer-Bereich.
+- **Hauptbild**: Ein Bild wird im Hauptbereich angezeigt.
+
+## `forschungsmethoden.html`
+- **Struktur und Styling**: Ähnlich wie `fazit.html`.
+- **Inhalt**: Bietet Informationen zu Forschungsmethoden im Kontext von Mental Health im Spitzensport.
+- **Bild**: Ein Bild wird im Hauptbereich angezeigt.
+
+## `index.html`
+- **Struktur**: Grundlegende Struktur mit eingebundenem CSS und Google Fonts.
+- **Inhalt**: Menü-Button, ein Haupttextbereich mit einem Link zur Startseite, und eine Video-Hintergrundsektion.
+- **Animation**: Eine Textanimation für den Titel "Mental Health im Spitzensport".
+- **Artikelabschnitte**: Drei Artikelabschnitte mit Links zu weiteren Seiten der Website.
+
+## `kontakt.html`
+- **Struktur und Styling**: Ähnlich wie die anderen Seiten.
+- **Inhalt**: Bietet ein Kontaktformular für Benutzer, um Nachrichten zu senden. 
+- **Navigation**: Enthält ein Hamburger-Menü für die Navigation.
+- **Footer**: Standard-Footer-Bereich mit Kontaktinformationen.
+
+## `umfrage.html`
+- **Struktur und Styling**: Verwendet `umfrage.css` für das spezifische Styling der Umfrage-Seite.
+- **Inhalt**: Präsentiert eine Stimmungsumfrage mit Schiebereglern und Fragen zur mentalen Gesundheit.
+- **Navigation**: Hamburger-Menü wie auf anderen Seiten.
+- **Zusätzlicher Inhalt**: Ein Abschnitt, der die Wichtigkeit des Sprechens über mentale Gesundheit hervorhebt, mit Links zu hilfreichen Ressourcen.
+
+
+# CSS-Dateien Zusammenfassung
+
+## `startseite.css`
+- **Grundstil**: Schriftart `Arial`, weißer Hintergrund, Textlinks weiß ohne Unterstreichung.
+- **Menü**: Menü-Button mit weißen Balken, Änderung zu hellem Grau beim Hover. Dunkelgrüner Hintergrund für das Menü-Overlay.
+- **Hauptabschnitt und Artikel**: Hellgrauer Hintergrund für Hauptbereich. Artikel-Boxen in Weiß mit Schatten, Überschriften auf dunkelgrauem Hintergrund mit weißem Text, Textabschnitte in mittelgrau.
+- **Footer**: Dunkelgraue Hintergrundfarbe mit weißem Text.
+- **Weitere Elemente**: Video-Hintergrund, Textanimationscontainer in Weiß, verschiedene Abschnittsstile.
+
+## `umfrage.css`
+- **Grundstil und Textbereiche**: Dunkelgrüner Hintergrund, Schriftart `Arial`, Links in Braunton.
+- **Container**: Weißer Hintergrund mit dunkelgrauen und mittelgrauen Textelementen.
+- **Navigationsbuttons**: Blauer bzw. grauer Hintergrund mit weißem Text.
+- **Responsives Design**: Anpassungen für verschiedene Bildschirmgrößen, speziell für kleinere Geräte.
+
+## `style.css`
+- **Allgemeiner Stil**: Schriftart `Arial`, dunkelgrüner Hintergrund, helle Textfarben für Körper und Links.
+- **Footer**: Ähnlich `startseite.css`, mit dunkelgrauem Hintergrund und weißem Text. Weiße Links im Footer.
+- **Artikelabschnitt und Hauptbild**: Stile für Artikelbereiche und Hauptbild.
+- **Kontaktformular und Slider**: Spezifische Stile für Kontaktformular und Umfrage-Slider.
+
+
+Meine Website zeigt das Thema der Bachelorarbeit: Mental Health im Spitzensport und ist in vier Hauptbereiche aufgeteilt: eine Startseite, zwei Artikelbeiträge, eine Umfrage und ein Kontaktformular.
 
 ## Quellen
 
@@ -15,29 +67,9 @@ Diese Website zeigt das Thema meiner Bachelorarbeit: Mental Health im Spitzenspo
 
 ## Methodik
 
-Ich habe zuerst etwas ähnliches wie die Seite von Red Bulletin nachbauen wollen, jedoch schnell gemerkt das es mir nicht gefällt, danach habe ich mich bei Kreativagenture inspirieren lassen wobei ich meinen persönlichen Stil und die technischen Möglichkeiten berücksichtigte. 
-Der Entwicklungsprozess umfasste Planung, Recherchieren, Verwerfen, Testen und Anpassung, wobei ChatGPT die Lösung technischer Herausforderungen war.
+Mein ursprüngliches Ziel war es, eine Webseite zu erstellen, die ähnlich wie die von Red Bulletin aufgebaut ist. Jedoch wurde mir schnell klar, dass dieser Stil nicht ganz meinen Vorstellungen entsprach, da das ganze in meinen Augen zu einfach und langweilig aussah. Daraufhin ließ ich mich von verschiedenen Webseiten von Kreativagenturen inspirieren.  wobei ich jedoch schaute, das  meinen persönlichen Stil auch integund die technischen Gegebenheiten einzubeziehen.
 
-# Gesamtzusammenfassung des Webprojekts
+Der gesamte Entwicklungsprozess war viel Recherche, dem Verwerfen nicht passender Ideen und kontinuierlichem Testen was ich auch mithilfe von ChatGPT, Codepen und den Codesnipets aus alten Projekten schaffen kann oder eben auch tnich. Besonders herausfordernd waren das Menu sowie der Footer der irgendwie trotz gleichem Code und File nie gleich aussah. Diese Probleme konnte ich dank dem Grundverständnis des Codes und meinen Ideen was die Fehler sein könnten mithilfe von ChatGPT meistern konnte. 
 
-## HTML-Dateien
-- `fazit.html`, `forschungsmethoden.html`, `index.html`, `kontakt.html`, `umfrage.html`: 
-  - Grundlegende HTML-Strukturen mit Kopf- und Körperbereichen.
-  - Verwendung von `style.css` und Google Fonts (Montserrat) für das Styling.
-  - Inkludieren von Navigationselementen, Textabschnitten, Bildern und einem Video-Hintergrund.
-  - Spezifische Inhalte zu Themen wie Mental Health im Spitzensport, Forschungsmethoden, Kontaktinformationen und einer Stimmungsumfrage.
 
-## CSS-Dateien
-- `startseite.css`, `umfrage.css`, `style.css`:
-  - Definieren von Grundstilen, Layout und Designelementen für die Webseite.
-  - Einsatz von Schriftart `Arial` und Google Font `Montserrat`.
-  - Stilisierung von Navigationsmenü, Hauptbereich, Artikeln, Footer und spezifischen Elementen für die Umfrage-Seite.
 
-## JavaScript-Dateien
-- `script.js` und `umfrage.js`:
-  - `script.js` steuert das interaktive Hamburger-Menü und die Menü-Links.
-  - `umfrage.js` verwaltet die Logik der Stimmungsumfrage, inklusive der Navigation zwischen Fragen und des zeigen des Ergebnis.
-
-## PhP-Datei
-- `submit-form.php`
-  - Wäre für das korrekte Absenden des Kontaktformular - funktioniert jedoch nicht fehlerfrei
