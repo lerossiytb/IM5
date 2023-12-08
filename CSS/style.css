@@ -94,7 +94,7 @@ body {
     top: 50px; /* Positioniert das Menü unterhalb des Titel-Containers */
 }
 
-/* Restliches CSS bleibt unverändert */
+/* Menu Balken styling */
 
 .menu-button .bar {
     background-color: rgb(255, 255, 255);
@@ -295,50 +295,6 @@ body {
     color: #555; /* Ändert die Farbe beim Überfahren mit der Maus */
 }
 
-@keyframes writeText {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes brightness {
-    0% {
-        filter: brightness(0.1);
-    }
-    100% {
-        filter: brightness(1);
-    }
-}
-
-.scroll-down-arrow {
-    position: absolute;
-    bottom: 20px; /* Ändere den Abstand nach Bedarf */
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .scroll-down-arrow a {
-    font-size: 24px; /* Ändere die Größe nach Bedarf */
-    color: rgb(255, 255, 255); /* Ändere die Farbe nach Bedarf */
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .scroll-down-arrow img {
-    filter: invert(100%); /* Dies ändert die Farben des Bildes von schwarz zu weiß */
-  }
 
   /* CSS für den Abschnitt */
 .featured-articles {
@@ -463,6 +419,7 @@ input[type="submit"]:hover {
     background-color: #003d82;
 }
 
+/*Umfrage Slider */
   
   .slider-container {
     margin: 20px auto;
