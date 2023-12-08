@@ -313,17 +313,17 @@ label {
 
 
 .ergebnis {
-  padding: 3px 18px 2px;
-  background-color: #dff9fb;
-  border: 1px solid #d1d8e0;
-  border-radius: 5px;
-  display: none;
-  position: absolute;
-  bottom: 59%; /* Verwenden Sie einen prozentualen Wert für die vertikale Position */
-  left: 715px;
-  right: 85px;
-  transform: translateX(-50%);
-}
+
+    position: absolute; /* Positionierung relativ zur ursprünglichen Position */
+    top: 180px; 
+    left: 33.4%; 
+    right: 33%;
+    width: 33%; /* Breite von 200 Pixeln */
+    height: 75px; /* Höhe von 100 Pixeln */
+    background-color: #1d6337;
+    color: #eaf4fe;
+    padding-top: 44px;
+  }
 
 
 .question-navigation {
