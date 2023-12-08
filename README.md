@@ -52,6 +52,22 @@
 - **Kontaktformular und Slider**: Spezifische Stile für Kontaktformular und Umfrage-Slider.
 
 
+ # Zusammenfassung der JavaScript-Dateien
+
+## `script.js`
+- **Navigationsmenü**: Fügt interaktive Funktionalität zum Hamburger-Menü hinzu. Beim Klicken auf den Menü-Button wird das Menü ein- oder ausgeblendet.
+- **Menü-Schließen**: Ein Event-Listener auf dem Schließ-Button des Menüs ermöglicht das Schließen des Menüs.
+- **Menü-Links**: Stellt sicher, dass das Menü geschlossen wird, wenn ein Menü-Link angeklickt wird.
+- **Fehlerkontrolle**: Überprüft, ob die erforderlichen Elemente im DOM vorhanden sind, und gibt bei Fehlen eine Fehlermeldung in der Konsole aus.
+
+## `umfrage.js`
+- **Umfrage-Logik**: Steuert die Anzeige der Fragen der Umfrage. Erlaubt dem Benutzer, zwischen den Fragen vor- und zurückzunavigieren.
+- **Frageanzeige**: Funktionen `showQuestion`, `showNextQuestion` und `showPreviousQuestion` steuern, welche Frage angezeigt wird.
+- **Ergebnisberechnung**: Die Funktion `berechneErgebnis` berechnet das Ergebnis der Umfrage basierend auf den Antworten und zeigt es an.
+- **Frage- und Antwortlogik**: Verwaltet den aktuellen Status der Frage und passt die Anzeige entsprechend an.
+
+#ReadMe mit Offenlegung von Quellen / Arbeitsmittel / Methodik
+
 Meine Website zeigt das Thema der Bachelorarbeit: Mental Health im Spitzensport und ist in vier Hauptbereiche aufgeteilt: eine Startseite, zwei Artikelbeiträge, eine Umfrage und ein Kontaktformular.
 
 ## Quellen
