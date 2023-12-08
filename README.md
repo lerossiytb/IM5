@@ -85,7 +85,7 @@ Meine Website zeigt das Thema der Bachelorarbeit: Mental Health im Spitzensport 
 
 ## Methodik
 
-Mein ursprüngliches Ziel war es, eine Webseite zu erstellen, die ähnlich wie die von Red Bulletin aufgebaut ist. Jedoch wurde mir schnell klar, dass dieser Stil nicht ganz meinen Vorstellungen entsprach, da das ganze in meinen Augen zu einfach und langweilig aussah. Daraufhin ließ ich mich von verschiedenen Webseiten von Kreativagenturen inspirieren.  wobei ich jedoch schaute, das  meinen persönlichen Stil auch integund die technischen Gegebenheiten einzubeziehen.
+Mein ursprüngliches Ziel war es, eine Webseite zu erstellen, die ähnlich wie die von Red Bulletin aufgebaut ist. Jedoch wurde mir schnell klar, dass dieser Stil nicht ganz meinen Vorstellungen entsprach, da das ganze in meinen Augen zu einfach und langweilig aussah. Daraufhin liess ich mich von verschiedenen Webseiten von Kreativagenturen inspirieren. Ich  schaute aber vorallem, das  meine eigenen Vorstellungen und was ich cool finde auf Webseiten integrierte. 
 
 Der gesamte Entwicklungsprozess war viel Recherche, dem Verwerfen nicht passender Ideen und kontinuierlichem Testen was ich auch mithilfe von ChatGPT, Codepen und den Codesnipets aus alten Projekten schaffen kann oder eben auch tnich. Besonders herausfordernd waren das Menu sowie der Footer der irgendwie trotz gleichem Code und File nie gleich aussah. Diese Probleme konnte ich dank dem Grundverständnis des Codes und meinen Ideen was die Fehler sein könnten mithilfe von ChatGPT meistern konnte. 
 
