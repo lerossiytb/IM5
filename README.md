@@ -17,7 +17,7 @@
 - **Struktur**: Grundlegende Struktur mit eingebundenem CSS und Google Fonts.
 - **Inhalt**: Menü-Button, ein Haupttextbereich mit einem Link zur Startseite, und eine Video-Hintergrundsektion.
 - **Animation**: Eine Textanimation für den Titel "Mental Health im Spitzensport".
-- **Artikelabschnitte**: Drei Artikelabschnitte mit Links zu weiteren Seiten der Website.
+- **Artikelabschnitte**: Drei Artikelabschnitte mit Links zu weiteren Seiten der Webseite.
 
 ## `kontakt.html`
 - **Struktur und Styling**: Ähnlich wie die anderen Seiten.
@@ -35,21 +35,21 @@
 # CSS-Dateien Zusammenfassung
 
 ## `startseite.css`
-- **Grundstil**: Schriftart `Arial`, weißer Hintergrund, Textlinks weiß ohne Unterstreichung.
-- **Menü**: Menü-Button mit weißen Balken, Änderung zu hellem Grau beim Hover. Dunkelgrüner Hintergrund für das Menü-Overlay.
-- **Hauptabschnitt und Artikel**: Hellgrauer Hintergrund für Hauptbereich. Artikel-Boxen in Weiß mit Schatten, Überschriften auf dunkelgrauem Hintergrund mit weißem Text, Textabschnitte in mittelgrau.
-- **Footer**: Dunkelgraue Hintergrundfarbe mit weißem Text.
-- **Weitere Elemente**: Video-Hintergrund, Textanimationscontainer in Weiß, verschiedene Abschnittsstile.
+- **Grundstil**: Schriftart `Arial`, weisser Hintergrund, Textlinks weiss ohne Unterstreichung.
+- **Menü**: Menü-Button mit weissen Balken, Änderung zu hellem Grau beim Hover. Dunkelgrüner Hintergrund für das Menü-Overlay.
+- **Hauptabschnitt und Artikel**: Hellgrauer Hintergrund für Hauptbereich. Artikel-Boxen in Weiss mit Schatten, Überschriften auf dunkelgrauem Hintergrund mit weissem Text, Textabschnitte in mittelgrau.
+- **Footer**: Dunkelgraue Hintergrundfarbe mit weissem Text.
+- **Weitere Elemente**: Video-Hintergrund, Textanimationscontainer in Weiss, verschiedene Abschnittsstile.
 
 ## `umfrage.css`
 - **Grundstil und Textbereiche**: Dunkelgrüner Hintergrund, Schriftart `Arial`, Links in Braunton.
-- **Container**: Weißer Hintergrund mit dunkelgrauen und mittelgrauen Textelementen.
-- **Navigationsbuttons**: Blauer bzw. grauer Hintergrund mit weißem Text.
-- **Responsives Design**: Anpassungen für verschiedene Bildschirmgrößen, speziell für kleinere Geräte.
+- **Container**: Weisser Hintergrund mit dunkelgrauen und mittelgrauen Textelementen.
+- **Navigationsbuttons**: Blauer bzw. grauer Hintergrund mit weissem Text.
+- **Responsives Design**: Anpassungen für verschiedene Bildschirmgrössen, speziell für kleinere Geräte.
 
 ## `style.css`
 - **Allgemeiner Stil**: Schriftart `Arial`, dunkelgrüner Hintergrund, helle Textfarben für Körper und Links.
-- **Footer**: Ähnlich `startseite.css`, mit dunkelgrauem Hintergrund und weißem Text. Weiße Links im Footer.
+- **Footer**: Ähnlich `startseite.css`, mit dunkelgrauem Hintergrund und weissem Text. Weisse Links im Footer.
 - **Artikelabschnitt und Hauptbild**: Stile für Artikelbereiche und Hauptbild.
 - **Kontaktformular und Slider**: Spezifische Stile für Kontaktformular und Umfrage-Slider.
 
@@ -58,7 +58,7 @@
 
 ## `script.js`
 - **Navigationsmenü**: Fügt interaktive Funktionalität zum Hamburger-Menü hinzu. Beim Klicken auf den Menü-Button wird das Menü ein- oder ausgeblendet.
-- **Menü-Schließen**: Ein Event-Listener auf dem Schließ-Button des Menüs ermöglicht das Schließen des Menüs.
+- **Menü-Schliessen**: Ein Event-Listener auf dem Schliess-Button des Menüs ermöglicht das Schliessen des Menüs.
 - **Menü-Links**: Stellt sicher, dass das Menü geschlossen wird, wenn ein Menü-Link angeklickt wird.
 - **Fehlerkontrolle**: Überprüft, ob die erforderlichen Elemente im DOM vorhanden sind, und gibt bei Fehlen eine Fehlermeldung in der Konsole aus.
 
