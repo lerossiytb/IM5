@@ -1,9 +1,9 @@
-/* Grundstil */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    color: #ddd;
+    background-color: #1d6337;
 }
 
 .home-link {
@@ -11,11 +11,10 @@ body {
     text-decoration: none; /* Dies entfernt die Unterstreichung */
 }
 
-
 /* Hauptabschnitt */
 .main-section {
     padding: 50px 0;
-    background-color: #f4f4f4;
+    background-color: #1d6337;
 }
 
 /* CSS für die Artikel-Anordnung */
@@ -49,7 +48,6 @@ body {
     color: #666;
 }
 
-
 /* Video */
 .video-overlay {
     position: relative;
@@ -58,6 +56,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
 #video-background {
     width: 100%;
@@ -96,19 +95,19 @@ body {
 }
 
 /* Restliches CSS bleibt unverändert */
-  
-  .menu-button .bar {
-    background-color: rgb(0, 0, 0);
+
+.menu-button .bar {
+    background-color: rgb(255, 255, 255);
     height: 5px;
     width: 35px;
     margin: 6px 0;
     transition: background-color 0.3s, width 0.3s;
-  }
+}
   
   .menu-button .bar:before,
   .menu-button .bar:after {
     content: '';
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 5px;
     position: absolute;
     left: 0;
@@ -402,25 +401,18 @@ a {
 
 .text-section h1 {
     font-size: 2rem; /* Schriftgröße der Überschrift */
-    color: #333; /* Farbe der Überschrift */
+    color: rgb(255, 255, 255); /* Farbe der Überschrift */
     margin-bottom: 1rem; /* Abstand unter der Überschrift */
 }
 
 .text-section p {
     font-size: 1rem; /* Schriftgröße des Paragraphen */
-    color: #666; /* Farbe des Paragraphen */
+    color: rgb(255, 255, 255); /* Farbe des Paragraphen */
     line-height: 1.6; /* Zeilenhöhe */
     margin-bottom: 1rem; /* Abstand unter dem Paragraphen */
 }
 
 /* Kontaktformular */
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-}
 .container {
     width: 600px; /* Setzen Sie die gewünschte Breite des Formulars */
     margin: 0 auto;
@@ -508,4 +500,26 @@ input[type="submit"]:hover {
     cursor: pointer;
   }
   
-  
+  .rectangle-box {
+    padding: 20px; /* Innenabstand */
+    margin: 0px -5px; /* Außenabstand oben und unten */
+    background-color: #1d6337; /* Dunkelgrüne Hintergrundfarbe */
+    width: 100%; /* Breite der Box */
+    margin-left: auto; /* Zentrieren der Box */
+    margin-right: auto; /* Zentrieren der Box */
+  }
+
+/* Media Query für Laptop (1024px) */
+@media (max-width: 1024px) {
+    /* Fügen Sie hier Ihre Anpassungen für Laptop-Bildschirme hinzu */
+}
+
+/* Media Query für iPad (768px) */
+@media (max-width: 768px) {
+    /* Fügen Sie hier Ihre Anpassungen für iPad-Bildschirme hinzu */
+}
+
+/* Media Query für Handy (480px) */
+@media (max-width: 480px) {
+    /* Fügen Sie hier Ihre Anpassungen für Handy-Bildschirme hinzu */
+}

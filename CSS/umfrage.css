@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #1d6337
 }
 
 
@@ -96,7 +96,7 @@ a {
 }
 
 .menu-button .bar {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   height: 5px;
   width: 35px;
   margin: 6px 0;
@@ -106,7 +106,7 @@ a {
 .menu-button .bar:before,
 .menu-button .bar:after {
   content: '';
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   height: 5px;
   position: absolute;
   left: 0;
@@ -449,4 +449,40 @@ label {
 
 .helpful-resources {
   font-size: 16px;
+}
+
+.rectangle-box {
+  padding: 20px; /* Innenabstand */
+
+  width: 50%; /* Breite der Box */
+  margin-left: auto; /* Zentrieren der Box */
+  margin-right: auto; /* Zentrieren der Box */
+  border: 2px solid #333; 
+}
+
+.text-section, .helpful-resources a {
+  color: white; /* Weiße Textfarbe für Kontrast */
+  line-height: 1.6; /* Zeilenhöhe */
+}
+
+.helpful-resources ul {
+  list-style-type: none; /* Keine Listenpunkte */
+  padding: 0; /* Kein Innenabstand */
+}
+
+.helpful-resources li a {
+  color: #FFF; /* Weiße Linkfarbe für Kontrast */
+  text-decoration: none; /* Keine Unterstreichung */
+}
+
+.helpful-resources li a:hover {
+  text-decoration: underline; /* Unterstreichung beim Hover */
+}
+
+.rectangle-box h2 {
+  color: #FFFFFF; /* Weiße Textfarbe */
+}
+
+.rectangle-box p {
+   color: #FFFFFF; /* Weiße Textfarbe */
 }
