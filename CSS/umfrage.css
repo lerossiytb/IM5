@@ -313,14 +313,15 @@ label {
 
 
 .ergebnis {
-  padding: 20px;
+  padding: 3px 18px 2px;
   background-color: #dff9fb;
   border: 1px solid #d1d8e0;
   border-radius: 5px;
   display: none;
   position: absolute;
-  bottom: 55%; /* Verwenden Sie einen prozentualen Wert für die vertikale Position */
-  left: 50%;
+  bottom: 59%; /* Verwenden Sie einen prozentualen Wert für die vertikale Position */
+  left: 715px;
+  right: 85px;
   transform: translateX(-50%);
 }
 
@@ -356,13 +357,6 @@ label {
 }
 
 
-#show-result {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 586px; /* Adjusted to 586px */
-  width: 200px; /* Adjust this value for the desired width */
-}
 
 .main-section {
   padding: 50px 0;
@@ -437,52 +431,8 @@ label {
 #myFooter .footer-section h3 {
   font-size: 18px; }
 
-  h2 {
-    font-size: 1.5em; /* existing style */
-    font-weight: bold; /* existing style */
-    margin-bottom: 0; /* this will remove the bottom margin */
-  }
-  
-  .my-text {
-    margin-top: 10%; /* Hier kannst du den gewünschten Abstand einstellen */
-}
-
-.helpful-resources {
-  font-size: 16px;
-}
-
-.rectangle-box {
-  padding: 20px; /* Innenabstand */
-
-  width: 50%; /* Breite der Box */
-  margin-left: auto; /* Zentrieren der Box */
-  margin-right: auto; /* Zentrieren der Box */
-  border: 2px solid #333; 
-}
-
-.text-section, .helpful-resources a {
-  color: white; /* Weiße Textfarbe für Kontrast */
-  line-height: 1.6; /* Zeilenhöhe */
-}
-
-.helpful-resources ul {
-  list-style-type: none; /* Keine Listenpunkte */
-  padding: 0; /* Kein Innenabstand */
-}
-
-.helpful-resources li a {
-  color: #FFF; /* Weiße Linkfarbe für Kontrast */
-  text-decoration: none; /* Keine Unterstreichung */
-}
-
-.helpful-resources li a:hover {
-  text-decoration: underline; /* Unterstreichung beim Hover */
-}
-
-.rectangle-box h2 {
-  color: #FFFFFF; /* Weiße Textfarbe */
-}
-
-.rectangle-box p {
-   color: #FFFFFF; /* Weiße Textfarbe */
+  .hidden-link {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }

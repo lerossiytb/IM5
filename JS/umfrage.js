@@ -64,25 +64,25 @@ document.addEventListener('DOMContentLoaded', function() {
     let entmutigt = parseInt(document.getElementById("entmutigt").value);
     let ausgeglichen = parseInt(document.getElementById("ausgeglichen").value);
     let gluecklich = parseInt(document.getElementById("gluecklich").value);
-
+  
     let ergebnisText = "";
-
-    if (nervoes <= 2 && niedergeschlagen <= 2 && entmutigt <= 2 && ausgeglichen >= 4 && gluecklich >= 4) {
-        ergebnisText = "Es ist wichtig zu betonen, dass es in Ordnung ist, Hilfe zu suchen. Zögere nicht, mit Freunden zu sprechen oder professionelle Hilfe zu suchen, wenn dieses Gefühl anhält.";
-    } else if (nervoes === 3 && niedergeschlagen === 3 && entmutigt === 3 && ausgeglichen === 3 && gluecklich === 3) {
-        ergebnisText = "Es ist normal, sich gelegentlich nicht gut zu fühlen. Vielleicht hilft es, mit Freunden darüber zu sprechen.";
-    } else if (nervoes >= 4 || niedergeschlagen >= 4 || entmutigt >= 4) {
-        ergebnisText = "Es könnte hilfreich sein, mit jemandem über deine Gefühle zu sprechen und Unterstützung zu suchen.";
-    } else if (ausgeglichen >= 4 && gluecklich >= 4) {
-        ergebnisText = "Es ist großartig zu hören, dass du dich in letzter Zeit gut gefühlt hast. Genieße diese Zeit und tue weiterhin Dinge, die dir Freude bereiten.";
-    } else {
-        ergebnisText = "Deine Antworten deuten auf eine Mischung von Gefühlen hin. Es könnte nützlich sein, über deine persönliche Situation nachzudenken und Unterstützung zu suchen, wenn du das möchtest.";
-    }
-
-    document.getElementById("ergebnis").innerText = ergebnisText;
-    document.getElementById("ergebnis").style.display = 'block';
+  
+   // Bestimmung des Ergebnisses
+   if (nervoes >= 4 || niedergeschlagen >= 4 || entmutigt >= 4) {
+    ergebnisText = "Deine Antworten deuten darauf hin, dass du dich häufig gestresst oder niedergeschlagen fühlst. " +
+        "Es ist kein Problem, um Hilfe zu bitten. " 
+} else if (nervoes <= 2 && niedergeschlagen <= 2 && entmutigt <= 2 && ausgeglichen >= 4 && gluecklich >= 4) {
+    ergebnisText = "Es sieht so aus, als hättest du eine positive Einstellung und fühlst dich meistens gut. Weiter so!";
+} else {
+    ergebnisText = "Es scheint, als hättest du Höhen und Tiefen, was ganz normal ist. Achte auf dich und zögere nicht, " +
+        "Unterstützung zu suchen, wenn du das Gefühl hast, dass du sie brauchst. " ;
 }
 
+  
+    document.getElementById("ergebnis").innerText = ergebnisText;
+    document.getElementById("ergebnis").style.display = 'block';
+  }
+  
   document.addEventListener("DOMContentLoaded", () => {
       const menuBtn = document.querySelector(".menu-button");
       const menuOverlay = document.querySelector("#menuOverlay");
